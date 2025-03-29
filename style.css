@@ -1,0 +1,80 @@
+
+.header
+{
+    height: 10vh;
+    width: 80vw;
+    background-color: burlywood;
+    margin: auto;
+}
+.content
+{
+    min-height: 75vh;
+    width: 80vw;
+    background-color: burlywood;
+    margin: 10px auto;
+}
+.footer
+{
+    height: 10vh;
+    width: 80vw;
+    background-color: burlywood;
+    margin:10px  auto;
+}
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav
+{
+height: 70px;
+/* background-color: aquamarine; */
+display: flex;
+justify-content: space-between;
+}
+
+.logo
+{
+margin-top: 20px;
+margin-left: 20px;
+font-size: 30px;
+}
+h2::first-letter
+{
+color: red;
+}
+
+nav ul li{
+display: inline-block;
+margin-left: 30px;
+font-size: 30px;
+margin-top: 10px;
+}
+
+.log
+{
+margin: 15px 70px;
+padding: 10px 30px;
+border-radius: 5px;
+border: 3px solid red;
+}
+
+
+/* footer */
+
+.footer_text
+{
+    text-align: center;
+    /* margin-top: 40px; */
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 800;
+    
+
+}
